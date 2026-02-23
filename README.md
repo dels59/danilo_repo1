@@ -1,2 +1,2 @@
-# danilo_repo1
+# 🐍 Python Fundamentals - Proyecto Aplicado en Streamlit
 Python Proyects Repository
