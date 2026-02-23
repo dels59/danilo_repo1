@@ -1,0 +1,4 @@
+Requirements
+# En el presente proyecto se usaron las siguientes librerías
+streamlit
+pandas
