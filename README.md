@@ -47,6 +47,6 @@ git clone https://github.com/dels59/danilo_repo1.git
 
 ```
 ## 👤 Autor
-Daniel Eduardo Lopez Shapiama
-2026
+- Daniel Eduardo Lopez Shapiama
+- 2026
 
