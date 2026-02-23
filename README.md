@@ -43,7 +43,7 @@ A través de este proyecto he podido consolidar mis bases en programación y com
 
 ## 🚀 Instalación
 ```bash
-git clone https://github.com/usuario/proyecto.git
+git clone https://github.com/dels59/danilo_repo1.git
 
 ```
 ## 👤 Autor
