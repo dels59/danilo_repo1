@@ -45,17 +45,46 @@ class Actividad:
 
 # ==== Elaboración de Home
 
-st.title("Especialización en Python for Analytics",text_alignment="center")
+st.set_page_config(
+    page_title="Especialización en Python for Analytics",
+    page_icon="📊",
+    layout="wide"
+)
 
-st.sidebar.title("Menú de Navegación")
-alternativas = st.sidebar.selectbox("Elegir Opciones",
-                     ["Home",
-                      "Ejercicio 1",
-                      "Ejercicio 2",
-                      "Ejercicio 3",
-                      "Ejercicio 4"])
+st.markdown("""
+<style>
+.main-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
 
-if alternativas == "Home":
+.section-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.highlight-box {
+    background-color: #f0f2f6;
+    padding: 15px;
+    border-radius: 10px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="main-title">📘 Especialización en Python for Analytics</div>', unsafe_allow_html=True)
+
+st.sidebar.title("📌 Menú de Navegación")
+alternativas = st.sidebar.selectbox(
+    "Elegir Opciones",
+    ["🏠 Home", "🗒️Ejercicio 1", "🗒️Ejercicio 2", "🗒️Ejercicio 3", "🗒️Ejercicio 4"]
+)
+
+if alternativas == "🏠 Home":
    st.subheader("**Bienvenido al Proyecto Aplicado en Streamlit elaborado por Daniel Lopez**",text_alignment="center")
    st.write("Antes de empezar, se comparten los principales detalles del proyecto:")
   
@@ -101,7 +130,7 @@ if alternativas == "Home":
 
 # ==== Elaboración de Ejercicio 1
 
-elif alternativas == "Ejercicio 1":
+elif alternativas == "🗒️Ejercicio 1":
     st.subheader("Presupuesto vs Gasto")
    
     monto_presupuesto= st.number_input(
@@ -138,7 +167,7 @@ elif alternativas == "Ejercicio 1":
         
 # ==== Interfaz del Ejercicio 2 en Streamlit ====
 
-elif alternativas == "Ejercicio 2":
+elif alternativas == "🗒️Ejercicio 2":
     st.subheader("Registro de Actividades Financieras")
     st.caption("Complete la información para registrar una nueva actividad.")
 
@@ -177,7 +206,7 @@ elif alternativas == "Ejercicio 2":
 
 # ==== Interfaz del Ejercicio 3 en Streamlit ====
 
-elif alternativas == "Ejercicio 3":
+elif alternativas == "🗒️Ejercicio 3":
     st.subheader("Cálculo de Retorno según Actividad")
     st.caption("Seleccione la actividad e ingrese el resto de parámetros para calcular el retorno")
 
@@ -228,7 +257,7 @@ elif alternativas == "Ejercicio 3":
 
 # ==== Interfaz del Ejercicio 2 en Streamlit ====
 
-elif alternativas == "Ejercicio 4":
+elif alternativas == "🗒️Ejercicio 4":
     if "acciones" not in st.session_state:
         st.session_state.acciones = []
 
