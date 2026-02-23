@@ -44,6 +44,7 @@ A través de este proyecto he podido consolidar mis bases en programación y com
 ## 🚀 Instalación
 ```bash
 git clone https://github.com/dels59/danilo_repo1.git
+streamlit cloud app https://danilorepo1.streamlit.app/
 
 ```
 ## 👤 Autor
