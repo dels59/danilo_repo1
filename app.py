@@ -104,7 +104,7 @@ if alternativas == "🏠 Home":
                 "Daniel Eduardo Lopez Shapiama",
                 "2026",
                 "2026",
-                "Python, Streamlit, Numpy, Pandas"]
+                "Python, Streamlit, Pandas"]
         })
    st.table(cuadro_1)
 
