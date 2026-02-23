@@ -41,7 +41,8 @@ class Actividad:
 
     def mostrar_info(self):
         estado = "✅ OK" if self.esta_en_presupuesto() else "❌ Excedido"
-        return f"{self.nombre} - Tipo: {self.tipo} | Presupuesto: ${self.presupuesto} | Gasto Real: ${self.gasto_real} | Estado: {estado}"
+        return f"{self.nombre} ({self.tipo}) — Presupuesto: S/ {self.presupuesto:,.2f} | Gasto: S/ {self.gasto_real:,.2f} | Estado: {estado}"
+
 
 # ==== Elaboración de Home
 
