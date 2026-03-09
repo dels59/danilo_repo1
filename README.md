@@ -1,4 +1,5 @@
-# 🐍 Python Fundamentals
+# 🐍 Especialización en Python for Analytics
+
 ## 📊 Proyecto Aplicado en Streamlit
 
 ## 📌 Tabla de Contenidos
