@@ -2,6 +2,7 @@ Requirements
 # En el presente proyecto se usaron las siguientes librerías
 streamlit
 numpy
-matplotlib.pyplot
+matplotlib
 pandas
+
 
